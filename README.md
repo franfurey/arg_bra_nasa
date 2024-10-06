@@ -11,17 +11,19 @@ These animations visualize the evolution of these pollutants over the selected m
 
 ## Datasets Used
 
-For this project, the following satellite datasets provided by the Copernicus program were used:
+For this project, the following satellite datasets provided by the Copernicus program and NASA were used:
 
 1. **COPERNICUS/S5P/NRTI/L3_NO2**: NO₂ column density data.
 2. **COPERNICUS/S5P/NRTI/L3_CO**: CO column density data.
 3. **COPERNICUS/S5P/NRTI/L3_HCHO**: Formaldehyde (HCHO) column density data.
+4. **NASA/FIRMS**: Fire Information for Resource Management System (FIRMS) fire data.
 
 Each dataset contains information about the density of these gases in the atmosphere. The data was filtered for the desired time period (e.g., June 2024 to October 2024) and the region of interest, which includes Latin America from Brazil southwards.
 
 ## Visualization
 
-The animated maps show the temporal evolution of NO₂, CO, and HCHO compounds over Latin America. Each color in the visualization represents a range of gas density.
+The animated maps show the temporal evolution of NO₂, CO, and HCHO compounds over Latin America. Additionally, NASA FIRMS fire data is overlaid to visualize the impact of fire occurrences on gas concentrations. Each color in the visualization represents a range of gas density.
+
 
 ### Visualization Parameters:
 
