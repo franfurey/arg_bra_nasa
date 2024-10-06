@@ -29,22 +29,40 @@ The animated maps show the temporal evolution of NO₂, CO, and HCHO compounds o
   - **Palette**: ['black', 'blue', 'purple', 'cyan', 'green', 'yellow', 'red']
   - **Range**: 0.0 to 0.0002 mol/m²
   - **Color Meaning**:
-    - **Black**: Low concentration
-    - **Blue to Red**: Increasing concentration, with red indicating higher NO₂ density
+    - **Black**: Very low NO₂ concentration (0.0 - 0.00002 mol/m²)
+    - **Blue**: Low NO₂ concentration (0.00002 - 0.00005 mol/m²)
+    - **Purple**: Moderate NO₂ concentration (0.00005 - 0.00008 mol/m²)
+    - **Cyan**: Moderately high NO₂ concentration (0.00008 - 0.00012 mol/m²)
+    - **Green**: High NO₂ concentration (0.00012 - 0.00015 mol/m²)
+    - **Yellow**: Very high NO₂ concentration (0.00015 - 0.00018 mol/m²)
+    - **Red**: Extremely high NO₂ concentration (0.00018 - 0.0002 mol/m²)
 
 - **CO (Carbon Monoxide)**:
   - **Palette**: ['black', 'navy', 'blue', 'dodgerblue', 'cyan', 'lime', 'yellow', 'orange', 'red', 'darkred']
   - **Range**: 0.0 to 0.05 mol/m²
   - **Color Meaning**:
-    - **Black**: Low concentration
-    - **Blue to Dark Red**: Increasing CO concentration, with dark red indicating high concentration
+    - **Black**: Very low CO concentration (0.0 - 0.005 mol/m²)
+    - **Navy**: Low CO concentration (0.005 - 0.01 mol/m²)
+    - **Blue**: Moderate CO concentration (0.01 - 0.015 mol/m²)
+    - **Dodgerblue**: Moderately high CO concentration (0.015 - 0.02 mol/m²)
+    - **Cyan**: High CO concentration (0.02 - 0.025 mol/m²)
+    - **Lime**: Very high CO concentration (0.025 - 0.03 mol/m²)
+    - **Yellow**: Very high CO concentration (0.03 - 0.035 mol/m²)
+    - **Orange**: Extremely high CO concentration (0.035 - 0.04 mol/m²)
+    - **Red**: Severe CO concentration (0.04 - 0.045 mol/m²)
+    - **Dark Red**: Extremely severe CO concentration (0.045 - 0.05 mol/m²)
 
 - **HCHO (Formaldehyde)**:
   - **Palette**: ['black', 'blue', 'purple', 'cyan', 'green', 'yellow', 'red']
   - **Range**: 0.0 to 0.0003 mol/m²
   - **Color Meaning**:
-    - **Black**: Low concentration
-    - **Blue to Red**: Increasing HCHO concentration, with red indicating the highest density
+    - **Black**: Very low HCHO concentration (0.0 - 0.00005 mol/m²)
+    - **Blue**: Low HCHO concentration (0.00005 - 0.0001 mol/m²)
+    - **Purple**: Moderate HCHO concentration (0.0001 - 0.00015 mol/m²)
+    - **Cyan**: Moderately high HCHO concentration (0.00015 - 0.0002 mol/m²)
+    - **Green**: High HCHO concentration (0.0002 - 0.00025 mol/m²)
+    - **Yellow**: Very high HCHO concentration (0.00025 - 0.00028 mol/m²)
+    - **Red**: Extremely high HCHO concentration (0.00028 - 0.0003 mol/m²)
 
 Country borders have been added to all visualizations to facilitate the identification of regions.
 
